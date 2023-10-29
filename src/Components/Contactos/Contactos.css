@@ -1,0 +1,72 @@
+.loading {
+  margin: auto;
+  text-align: center
+}
+
+.contactos {
+  align-items: center;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .96rem;
+  justify-content: center;
+}
+
+.tarjeta-contacto {
+  border-radius: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 1rem;
+  width: 25rem;
+  border: black solid 1px;
+  background-color: #4f4f4f;
+}
+
+.tarjeta-contacto-datos {
+  justify-content: center;
+  align-items: center;
+  gap: .8rem;
+  display: flex;
+  padding: 1rem;
+}
+
+.avatar {
+  padding: auto;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.mail-contact {
+  display: flex;
+  gap: .96rem;
+}
+
+.mail {
+  font-weight: bold;
+}
+
+.tarjeta-contacto-info {
+  padding: .96rem;
+  margin-left: .96rem;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.botones{
+  display: flex;
+  justify-content: center;
+  padding: .96rem;
+  gap: 5px;
+}
+
+.boton {
+  border-radius: 25%;
+  background-color: #ffffff;
+}
+:hover.boton {
+  background-color: yellow;
+}
